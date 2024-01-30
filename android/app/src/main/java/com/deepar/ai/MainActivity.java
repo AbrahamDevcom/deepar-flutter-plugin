@@ -37,7 +37,7 @@ import ai.deepar.ar.DeepAR;
 /**
  * DeepArPlugin
  */
-public class DeepArPlugin implements FlutterPlugin, AREventListener, ActivityAware, PluginRegistry.RequestPermissionsResultListener {
+public class MainActivity implements FlutterActivity, AREventListener, ActivityAware, PluginRegistry.RequestPermissionsResultListener {
     /// The MethodChannel that will the communication between Flutter and native Android
     ///
     /// This local reference serves to register the plugin with the Flutter Engine and unregister it
